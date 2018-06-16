@@ -10,9 +10,10 @@ public class Roulette {
         this.randomGenerator = randomGenerator;
     }
 
-    public int play() {
+    public RouletteResult play() {
         ball.roll();
-        return randomGenerator.generate();
+        RouletteResult rouletteResult = new RouletteResult(randomGenerator.generate());
+        return rouletteResult;
     }
 
 }

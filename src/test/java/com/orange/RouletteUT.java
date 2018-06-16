@@ -22,7 +22,8 @@ class RouletteUT {
     @Test
     public void should_return_the_result_from_random_generator() throws InterruptedException {
         when(from0To36RandomGenerator.generate()).thenReturn(36);
-        assertThat(roulette.play()).isEqualTo(36);
+        RouletteResult rouletteResult = roulette.play();
+        assertThat(rouletteResult.number).isEqualTo("36");
     }
 
 

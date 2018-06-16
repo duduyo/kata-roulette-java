@@ -19,11 +19,11 @@ public class RouletteST {
         // given
         long startTimeMillis = currentTimeMillis();
         // when
-        int result = roulette.play();
+        RouletteResult result = roulette.play();
         long durationMillis = currentTimeMillis() - startTimeMillis;
         // then
         assertThat(durationMillis).isBetween(ROLL_DURATION_MILLIS, ROLL_DURATION_MILLIS + 100);
-        assertThat(result).isBetween(0, 36);
+        assertThat(result.number).matches("[0-9]|1[0-9]|2[0-9]|3[0-6]");
     }
 
 }

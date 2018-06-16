@@ -8,7 +8,7 @@ import static com.orange.From0To36RandomGenerator.RANDOM_MAX_VALUE;
 import static com.orange.From0To36RandomGenerator.RANDOM_MIN_VALUE;
 import static org.assertj.core.api.Assertions.assertThat;
 
-class From0To36RandomGeneratorTest {
+class From0To36RandomGeneratorIT {
 
     @Test
     void should_generate_numbers_between_0_and_36() {

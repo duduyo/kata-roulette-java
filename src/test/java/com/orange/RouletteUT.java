@@ -2,6 +2,7 @@ package com.orange;
 
 import org.junit.jupiter.api.Test;
 
+import static com.orange.RouletteColor.RED;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
@@ -24,6 +25,7 @@ class RouletteUT {
         when(from0To36RandomGenerator.generate()).thenReturn(36);
         RouletteResult rouletteResult = roulette.play();
         assertThat(rouletteResult.number).isEqualTo("36");
+        assertThat(rouletteResult.color).isEqualTo(RED);
     }
 
 

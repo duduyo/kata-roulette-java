@@ -2,9 +2,9 @@ package com.orange;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-public class From0To36RandomGenerator implements RandomGenerator {
+public class FromMinus1To36RandomGenerator implements RandomGenerator {
 
-    public static final int RANDOM_MIN_VALUE = 0;
+    public static final int RANDOM_MIN_VALUE = -1;
     public static final int RANDOM_MAX_VALUE = 36;
 
     @Override

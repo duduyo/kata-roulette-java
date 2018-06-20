@@ -1,10 +1,10 @@
-package com.orange;
+package com.orange.roulette.domain;
 
 import org.junit.jupiter.api.Test;
 
-import static com.orange.RouletteColor.BLACK;
-import static com.orange.RouletteColor.GREEN;
-import static com.orange.RouletteColor.RED;
+import static com.orange.roulette.domain.RouletteColor.BLACK;
+import static com.orange.roulette.domain.RouletteColor.GREEN;
+import static com.orange.roulette.domain.RouletteColor.RED;
 import static org.assertj.core.api.Assertions.assertThat;
 
 class RouletteResultUT {

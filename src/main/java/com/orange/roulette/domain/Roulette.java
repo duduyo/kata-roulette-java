@@ -1,4 +1,4 @@
-package com.orange;
+package com.orange.roulette.domain;
 
 public class Roulette {
 
@@ -12,8 +12,7 @@ public class Roulette {
 
     public RouletteResult play() {
         ball.roll();
-        RouletteResult rouletteResult = new RouletteResult(randomGenerator.generate());
-        return rouletteResult;
+        return new RouletteResult(randomGenerator.generate());
     }
 
 }

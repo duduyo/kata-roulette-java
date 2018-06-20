@@ -1,4 +1,4 @@
-package com.orange;
+package com.orange.roulette.domain;
 
 public enum RouletteColor {
     GREEN, RED, BLACK;

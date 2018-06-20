@@ -1,4 +1,6 @@
-package com.orange;
+package com.orange.roulette.random;
+
+import com.orange.roulette.domain.RandomGenerator;
 
 import java.util.concurrent.ThreadLocalRandom;
 

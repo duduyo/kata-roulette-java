@@ -1,4 +1,4 @@
-package com.orange;
+package com.orange.roulette.random;
 
 import org.junit.jupiter.api.Test;
 

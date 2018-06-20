@@ -1,6 +1,6 @@
-package com.orange;
+package com.orange.roulette.domain;
 
-import static com.orange.RouletteColor.GREEN;
+import static com.orange.roulette.domain.RouletteColor.GREEN;
 import static java.lang.String.valueOf;
 
 public class RouletteResult {
@@ -8,7 +8,6 @@ public class RouletteResult {
     public final RouletteColor color;
 
     public RouletteResult(int inputNumber) {
-
         this.number = calculateNumber(inputNumber);
         this.color = calculateColor(inputNumber);
     }

@@ -1,11 +1,11 @@
 package com.orange.roulette.timer;
 
-import org.junit.jupiter.api.Test;
-
 import static java.lang.System.currentTimeMillis;
 import static org.assertj.core.api.Assertions.assertThat;
 
-class BallTimerIT {
+import org.junit.jupiter.api.Test;
+
+class BallTimerITest {
 
     private static final long ROLL_DURATION_MILLIS = 100L;
 

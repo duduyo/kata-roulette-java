@@ -1,12 +1,12 @@
 package com.orange.roulette.random;
 
-import org.junit.jupiter.api.Test;
+import static org.assertj.core.api.Assertions.assertThat;
 
 import java.util.stream.IntStream;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import org.junit.jupiter.api.Test;
 
-class FromMinus1To36RandomGeneratorIT {
+class FromMinus1To36RandomGeneratorITest {
 
     private final FromMinus1To36RandomGenerator fromMinus1To36RandomGenerator = new FromMinus1To36RandomGenerator();
 

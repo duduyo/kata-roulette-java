@@ -1,14 +1,14 @@
 package com.orange.roulette.domain;
 
-import org.junit.jupiter.api.Test;
-
 import static com.orange.roulette.domain.RouletteColor.RED;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
-class RouletteUT {
+import org.junit.jupiter.api.Test;
+
+class RouletteUTest {
 
     private final RandomGenerator randomGenerator = mock(RandomGenerator.class);
     private final Ball ball = mock(Ball.class);
